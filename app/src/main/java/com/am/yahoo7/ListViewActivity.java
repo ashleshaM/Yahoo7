@@ -48,7 +48,8 @@ public class ListViewActivity extends AppCompatActivity {
          Call<model> call = service.getOffset(offset);
          call.enqueue(new Callback<model>() {
              @Override
-             public void onResponse(Response<model> response) {
+             public void onResponse(Response<model> response)
+             {
                  Log.d("MainActivity", "Status Code = " + response.code());
                  if (response.isSuccess()) {
 
