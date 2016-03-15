@@ -15,13 +15,13 @@ import java.util.ArrayList;
  * Created by ashleshamahindre on 13/03/16.
  */
 
-public class UserAdapter extends BaseAdapter {
+public class ListViewAdapter extends BaseAdapter {
 
     private ArrayList<Item> users ;
     private Context context ;
     TextView textViewName, textViewStartTime, textViewEndTime, textViewChannel, textViewRating;
 
-    public UserAdapter(Context context, ArrayList<Item> items) {
+    public ListViewAdapter(Context context, ArrayList<Item> items) {
         this.context = context ;
         this.users = items ;
     }

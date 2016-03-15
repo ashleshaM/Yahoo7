@@ -21,7 +21,7 @@ import retrofit.Response;
 
 public class ListViewActivity extends AppCompatActivity {
 
-    private UserAdapter mAdapter ;
+    private ListViewAdapter mAdapter ;
     private int mStart = 0;
     private int mCount = 1;
     private boolean mIsLoading = false;
@@ -36,7 +36,7 @@ public class ListViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list_view);
 
         listView = (ListView) findViewById(R.id.listView);
-        mAdapter = new UserAdapter(ListViewActivity.this, Users);
+        mAdapter = new ListViewAdapter(ListViewActivity.this, Users);
         listView.setAdapter(mAdapter);
         listView.setOnScrollListener(onScrollListener());
 //        populateData(mStart);
