@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textviewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/textviewStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/start_time"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/textviewEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/end_time"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/textviewChannel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/channel"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/textviewrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/rating"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>
